@@ -69,10 +69,10 @@ plugins.config(function(done) {
 
     function setupHandlebarsTemplates() {
 
-        require(["handlebars", "underscore"], function(Handlebars, _) {
+        requirejs(["handlebars", "underscore"], function(Handlebars, _) {
             //post compile handlebars templates
             for (var k in plugins.templates) {
-                plugins.templates[k] = eval("Handlebars.template("+plugins.templates[k].contents+");");
+                plugins.templates[k] = Handlebars.template(plugins.templates[k]);
             }
 
             plugins.flags.libraries = true;

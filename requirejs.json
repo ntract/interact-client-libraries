@@ -1,0 +1,47 @@
+{
+    "shim": {
+        "backbone": {
+            "deps": [
+                "underscore",
+                "jquery"
+            ],
+            "exports": "Backbone"
+        },
+        "underscore": {
+            "exports": "_"
+        },
+        "handlebars": {
+            "exports": "Handlebars"
+        },
+        "velocity": {
+            "deps": [
+                "jquery"
+            ]
+        },
+        "imageReady": {
+            "deps": [
+                "jquery"
+            ]
+        },
+        "inview": {
+            "deps": [
+                "jquery"
+            ]
+        }
+    },
+    "paths": {
+        "underscore": "empty:",
+        "backbone": "empty:",
+        "velocity": "empty:",
+        "inview": "empty:",
+        "imageReady": "empty:",
+        "handlebars": "empty:",
+        "bowser": "empty:",
+        "DOMDiffer": "empty:",
+        "backbone.controller": "empty:",
+        "backbone.differ": "empty:",
+        "events": "empty:",
+        "jquery.longpress": "empty:",
+        "helpers": "empty:"
+    }
+}
