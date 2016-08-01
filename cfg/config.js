@@ -1,6 +1,6 @@
 plugins.config(function(done) {
 
-    var path = "plugins/interact-client-libraries/res/";
+    var path = "plugins/ntract-client-libraries/res/";
 
     plugins.waitFor(function() {
 
