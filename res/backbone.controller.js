@@ -10,6 +10,8 @@ define(['underscore', 'backbone'], function(_, Backbone) {
 		initialize: function() {}
 
 	});
+	
+	Controller.extend = Backbone.View.extend;
 
 	return Controller;
 });
