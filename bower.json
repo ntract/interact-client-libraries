@@ -1,6 +1,5 @@
 {
    "name": "ntract-client-libraries",
-   "version": "0.0.5",
    "license": "GPL-3",
    "config": [
    		"cfg/config.js"
