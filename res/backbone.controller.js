@@ -7,7 +7,11 @@ define(['underscore', 'backbone'], function(_, Backbone) {
 
 	_.extend(Controller.prototype, Backbone.Events, {
 
-		initialize: function() {}
+		initialize: function() {},
+
+		remove: function() {
+			this.stopListening();
+		}
 
 	});
 	
